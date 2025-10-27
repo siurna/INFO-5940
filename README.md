@@ -11,6 +11,8 @@ Upload `.txt` or `.pdf` files, get an automatic summary, and chat with your docu
 streamlit run ts942_chatbot.py
 ```
 
+API Key will be asked in the Streamlit app directly.
+
 ---
 
 ## Dependencies added for this assignment
