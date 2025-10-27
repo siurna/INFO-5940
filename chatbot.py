@@ -44,7 +44,7 @@ def local_css(file_name: str):
 
 local_css("special_sauce.css")
 
-st.title("💬 The most helpful RAG")
+st.title("The most helpful RAG")
 
 # =============================================================================
 # API KEY INPUT
@@ -140,8 +140,6 @@ summaries = load_json(SUMMARY_CACHE, {})
 # =============================================================================
 # SIDEBAR
 # =============================================================================
-st.sidebar.header("📁 Upload Documents")
-
 uploaded_files = st.sidebar.file_uploader("", type=["txt", "pdf"], accept_multiple_files=True)
 
 # Push clear button to bottom of sidebar

@@ -66,6 +66,10 @@ h1, h2, h3, h4, p, [data-testid="stFileUploaderDropzoneInstructions"], button {
     min-height: 21px;
 }
 
+.stChatMessage:has([aria-label="Chat message from user"]) p{
+    color: white!important;
+}
+
 /* Window Body */
 .stChatMessage:has([aria-label="Chat message from assistant"]) h1,
 .stChatMessage:has([aria-label="Chat message from assistant"]) h2,
