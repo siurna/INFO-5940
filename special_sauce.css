@@ -1,0 +1,93 @@
+body{
+    cursor: url('https://brandu.lt/info5940/default_arrow.cur');
+    background: url('https://brandu.lt/info5940/bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header,
+.stAppToolbar{
+    background: none;
+}
+
+div.stApp,
+.stAppHeader,
+.stBottom > div{
+    background-color: transparent;
+}
+
+.stChatMessage [data-testid="stChatMessageAvatarUser"],
+.stChatMessage [data-testid="stChatMessageAvatarAssistant"]
+{
+    display: none;
+}
+
+h1, h2, h3, h4, p, [data-testid="stFileUploaderDropzoneInstructions"], button {
+    font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+}
+
+.stVerticalBlock{
+    gap: 0px;
+}
+
+.stAlert{
+    backdrop-filter: blur(10px);
+    margin: 20px 0;
+    color: white;
+}
+
+.stAlert p,
+.stAlert strong{
+    color: white;
+}
+
+/* Sidebar */
+.stSidebar{
+    background: url('https://blog.geocities.institute/wp-content/uploads/02.png');
+}
+
+/* Window title */
+.stChatMessage:has([aria-label="Chat message from user"]) p{
+    font-family: Trebuchet MS!important;
+}
+
+.stChatMessage:has([aria-label="Chat message from user"]){
+    margin-top: 20px;
+    background: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
+    padding: 3px 10px;
+    border-top: 1px solid #0831d9;
+    border-left: 1px solid #0831d9;
+    border-right: 1px solid #001ea0;
+    border-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 7px;
+    font-size: 13px;
+    text-shadow: 1px 1px #0f1089;
+    min-height: 21px;
+}
+
+/* Window Body */
+.stChatMessage:has([aria-label="Chat message from assistant"]) h1,
+.stChatMessage:has([aria-label="Chat message from assistant"]) h2,
+.stChatMessage:has([aria-label="Chat message from assistant"]) h3,
+.stChatMessage:has([aria-label="Chat message from assistant"]) h4,
+.stChatMessage:has([aria-label="Chat message from assistant"]) ul,
+.stChatMessage:has([aria-label="Chat message from assistant"]) li,
+.stChatMessage:has([aria-label="Chat message from assistant"]) p{
+    font-family: Arial!important;
+    color: #222;
+}
+
+.stChatMessage:has([aria-label="Chat message from assistant"]) p{
+    font-size: 12px;
+}
+
+.stChatMessage:has([aria-label="Chat message from assistant"]){
+    box-shadow: inset -1px -1px #00138c,inset 1px 1px #0831d9,inset -2px -2px #001ea0,inset 2px 2px #166aee,inset -3px -3px #003bda,inset 3px 3px #0855dd;
+    padding: 10px 20px;
+    -webkit-font-smoothing: antialiased;
+    background: #ece9d8;
+    margin-top: -3px;
+    border-radius: 0px;
+    z-index: -1;
+}
