@@ -1,4 +1,4 @@
-#Multi-agent travel planner reflection
+# Multi-agent travel planner reflection
 
 One of the biggest challenges was getting the Reviewer Agent to actually provide updated plan, not just summarize what is wrong with the current one. The turning point came when I told it to re-create a full, improved itinerary and explain why each change made sense. That small tweak completely shifted its behavior from passive reviewer to active trip designer. Adding the internet_search tool was another game-changer. Suddenly, the agent could check things like opening hours, ticket prices, and travel times on the fly.
 
